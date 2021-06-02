@@ -1,5 +1,5 @@
 body{
-  margin: 0.5%;
+  margin: 0%;
   
 }
 
@@ -39,12 +39,13 @@ header{
       float: right; margin-right: 2%; }
 
   header nav ul li a{
- text-decoration: none; }
+ text-decoration: none; color:white;  }
 
  
 
  footer {  margin-top: 30% ;  height:246px ;  text-align: center;  background-image: url("zRInk1.png");}
-
+div {position: relative ;  bottom: -160px;  color: white; }
+footer a {text-decoration: none; color:white;}
  
   
   
