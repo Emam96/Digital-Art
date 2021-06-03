@@ -8,10 +8,10 @@ if (gender == "male") {document.write("<p style='color:#3d84b8;'> Hello " + user
 else if (gender == "female") {document.write("<p style='color:#e93b81;'> Hello " + userName + " ! </p>")
   
 }
-else if (gender != "female") {document.write("<p style='color:white;'> Hello user ! </p>")
+else if (gender != "female") {document.write("<p style='color:white;'> Hello " + userName + " ! </p>")
 }
 
-else if (gender != "male") {document.write("<p style='color:white;'> Hello user ! </p>")
+else if (gender != "male") {document.write("<p style='color:white;'> Hello " + userName + " ! </p>")
 }
 
 
