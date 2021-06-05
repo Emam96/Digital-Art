@@ -32,10 +32,13 @@ header{
 
 
 #first { 
-  padding: 10%;
+  padding:20% ;
    font-family: Tahoma;
-    font-size: 1.3pc;   
+    font-size: 2.8pc;   
 }
+
+
+#hero {float:right;}
 
 
 #secound {
@@ -159,7 +162,7 @@ nav ul li {
 
 #first { 
   
-   font-family: Tahoma;
+   font-family: Arial;
     font-size: 0.9pc;
     text-align: center;
     
@@ -168,7 +171,7 @@ nav ul li {
 
 #secound {
   
-  font-family: Tahoma;
+  font-family: Arial;
     font-size: 0.9pc;
     text-align: center;
 }
