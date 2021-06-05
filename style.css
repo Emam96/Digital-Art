@@ -1,23 +1,40 @@
 body{
-  margin: 0%;
-  
+  margin: 0%; 
 }
+
+
+li a:hover {
+  color: blue;
+}
+
 
 header{
  background-image: url("https://i.stack.imgur.com/zRInk.png");
   height:246px;}
 
- #logo {margin-left: 5%;  width:7.5%; filter: invert(100%); position: relative; right: 0px; bottom: -2px;}
- 
-  h1 {font-family: Audiowide;   font-size: 3pc;  display: inline-block; color: white;
-  position: relative; right: 50px; bottom:30px;
+ #logo {margin-left: 5%;
+   width:7.5%;
+    filter: invert(100%);
+     position: relative; 
+     right: 0px;
+      bottom: -2px;
+      }
 
+ 
+  h1 {font-family: Audiowide; 
+    font-size: 3pc; 
+     display: inline-block;
+      color: white;
+  position: relative;
+   right: 50px; 
+   bottom:30px;
   }
+
+
 #first { 
   padding: 10%;
    font-family: Tahoma;
-    font-size: 1.3pc;
-    
+    font-size: 1.3pc;   
 }
 
 
@@ -28,25 +45,55 @@ header{
     text-align: center;
 }
 
+
+
 #cat{position: relative; right: -500px;  bottom: 70px }
+
+
+
 
 .op {opacity: 0.5 ;}
 
-  #monday {position: relative; right: ;  bottom: ;}
+  #monday {position: relative;
+   right: ; 
+    bottom: ;
+    }
 
   
-  nav {font-family: Audiowide; font-size: 1.5pc;  
-      float: right; margin-right: 2%; }
+  nav {font-family: Audiowide;
+   font-size: 1.5pc;  
+      float: right;
+       margin-right: 2%; 
+       }
 
+  
+  
   header nav ul li a{
- text-decoration: none; color:white;  }
+ text-decoration: none;
+  color:white;
+    }
 
  
 
- footer {  margin-top: 30% ;  height:246px ;  text-align: center;  background-image: url("zRInk1.png");}
-div {position: relative ;  bottom: -160px;  color: white; }
+ footer {
+     margin-top: 30% ; 
+  height:246px ;  
+  text-align: center; 
+   background-image: url("zRInk1.png");
+   }
+
+
+div {position: relative ; 
+ bottom: -160px; 
+  color: white;
+   }
+
+
 footer a {text-decoration: none; color:white;}
  
+ footer a:hover {
+  color: blue;
+}
   
   
   header nav ul li {display: inline-block;}
