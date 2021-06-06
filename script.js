@@ -1,21 +1,71 @@
 
 var userName = prompt("Enter your name ? ");
-var gender = prompt("Gender?,  you can answer by male or female only ")
+var gender = prompt("what is your gender: male, female,  you can answer by male or female only ");
+
+
 
 if (userName == ""){userName = "User"}
 
-if (gender == "male") {document.write("<p style='color:#3d84b8;'> Hello " + userName + " ! </p>")
+
+ function g(){
  
-}
-else if (gender == "female") {document.write("<p style='color:#e93b81;'> Hello " + userName + " ! </p>")
+ 
   
-}
-else if (gender != "female") {document.write("<p style='color:white;'> Hello " + userName + " ! </p>")
-}
 
-else if (gender != "male") {document.write("<p style='color:white;'> Hello " + userName + " ! </p>")
-}
+while (gender != "male" && gender != "female") 
+{
+
+    gender = prompt("please enter on of : male, female");
+  
+
+  }
+
+if (gender == "male") {document.write("<p style='color:#687980;'> Hello " + userName + " ! </p>")}
+
+ if (gender == "female") {document.write("<p style='color:#e93b81;'> Hello " + userName + " ! </p>")}
+
+ }
 
 
-// document.write("<p style='color:white;'> Hello " + userName + " ! </p>")
-// document.write("<p style='color:white;'> Hello user ! </p>")
+ g();
+
+
+
+
+
+
+
+
+
+// function img(){
+//   if 
+
+// if (siterate == 0) {document.getElementById("stars").document.write()}
+
+//  if (gender == "female") {document.write("<p style='color:#e93b81;'> Hello " + userName + " ! </p>")}
+
+
+// }
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
