@@ -14,7 +14,7 @@ while (siteRate != 1 && siteRate != 2  && siteRate != 3 && siteRate != 4 && site
 }
 
 for (i = 0; i < siteRate; i++) {
-  document.write("★");
+  document.write("<img src='https://cdn.brawlify.com/front/Star.png'  width='20px'  hieght='20px'>");
 
 }
 }
