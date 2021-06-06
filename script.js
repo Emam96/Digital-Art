@@ -20,9 +20,9 @@ while (gender != "male" && gender != "female")
 
   }
 
-if (gender == "male") {document.write("<p style='color:#687980;'> Hello " + userName + " ! </p>")}
+if (gender == "male") {document.write("<p style='color:#0a1931;'> Hello " + userName + " ! </p>")}
 
- if (gender == "female") {document.write("<p style='color:#e93b81;'> Hello " + userName + " ! </p>")}
+ if (gender == "female") {document.write("<p style='color:#cf0000;'> Hello " + userName + " ! </p>")}
 
  }
 
