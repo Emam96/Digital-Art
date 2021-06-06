@@ -15,7 +15,7 @@ if (userName == ""){userName = "User"}
 while (gender != "male" && gender != "female") 
 {
 
-    gender = prompt("please enter on of : male, female");
+    gender = prompt("please enter one of : male, female");
   
 
   }
